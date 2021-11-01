@@ -2,8 +2,8 @@
 	"credit": "Made by Mr3DAlien",
 	"ambientocclusion": false,
 	"textures": {
-		"texture": "blocks/ladder",
-		"particle": "blocks/ladder"
+		"texture": "block/ladder",
+		"particle": "block/ladder"
 	},
 	"elements": [
 		{

@@ -1,8 +1,8 @@
 {
 	"credit": "Made by Mr3DAlien",
 	"textures": {
-		"0": "blocks/redstone_lamp_on",
-		"particle": "blocks/redstone_lamp_on"
+		"0": "block/redstone_lamp_on",
+		"particle": "block/redstone_lamp_on"
 	},
 	"elements": [
 		{

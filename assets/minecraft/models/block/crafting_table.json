@@ -1,11 +1,11 @@
 {
     "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
     "textures": {
-        "0": "blocks/crafting_table_side",
-        "1": "blocks/crafting_table_front",
-        "2": "blocks/crafting_table_top",
-        "3": "blocks/crafting_table_bottom",
-		"particle": "blocks/crafting_table_top"
+        "0": "block/crafting_table_side",
+        "1": "block/crafting_table_front",
+        "2": "block/crafting_table_top",
+        "3": "block/crafting_table_bottom",
+		"particle": "block/crafting_table_top"
     },
     "elements": [
         {

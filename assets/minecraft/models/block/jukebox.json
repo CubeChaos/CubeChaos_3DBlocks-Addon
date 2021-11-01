@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Mr3DAlien",
 	"textures": {
-		"0": "blocks/jukebox_side",
-		"1": "blocks/jukebox_top",
-		"particle": "blocks/jukebox_side"
+		"0": "block/jukebox_side",
+		"1": "block/jukebox_top",
+		"particle": "block/jukebox_side"
 	},
 	"elements": [
 		{
