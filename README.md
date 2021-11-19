@@ -1,4 +1,6 @@
+
 # CubeChaos Terms and Conditions
+=======
 
 # INFORMATION ABOUT US
 CubeChaos.net is a domain and website owned by Mr3DAlien.
