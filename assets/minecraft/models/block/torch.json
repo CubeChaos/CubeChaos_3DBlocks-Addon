@@ -1,9 +1,9 @@
 {
 	"credit": "Made by Mr3DAlien",
 	"textures": {
-		"0": "block/soul_fire_1",
+		"0": "block/fire_1",
 		"1": "custom/block/torch",
-		"particle": "block/soul_fire_1"
+		"particle": "block/fire_1"
 	},
 	"elements": [
 		{
@@ -159,13 +159,11 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [-33.7, 10.36, 5.04],
-			"translation": [-0.75, 5.75, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [-0.25, 5.75, 0]
 		},
 		"firstperson_lefthand": {
 			"rotation": [-33.7, 10.36, 5.04],
-			"translation": [-0.75, 5.75, 0],
-			"scale": [0.8, 0.8, 0.8]
+			"translation": [-0.25, 5.75, 0]
 		},
 		"ground": {
 			"translation": [0, 2, 0],
