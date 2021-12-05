@@ -1,13 +1,27 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by Mr3DAlien",
 	"textures": {
 		"0": "block/furnace_front",
 		"1": "block/furnace_side",
 		"2": "block/furnace_top",
 		"3": "block/furnace_front_on",
+		"4": "block/fire_0",
 		"particle": "block/furnace_front"
 	},
 	"elements": [
+		{
+			"name": "top",
+			"from": [1, 14, 1],
+			"to": [15, 15, 15],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 2], "texture": "#0"},
+				"east": {"uv": [1, 1, 15, 2], "texture": "#1"},
+				"south": {"uv": [1, 1, 15, 2], "texture": "#1"},
+				"west": {"uv": [1, 1, 15, 2], "texture": "#1"},
+				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
+				"down": {"uv": [1, 1, 15, 15], "texture": "#2"}
+			}
+		},
 		{
 			"name": "bottom",
 			"from": [0, 0, 0],
@@ -19,19 +33,6 @@
 				"west": {"uv": [0, 0, 16, 1], "texture": "#2"},
 				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
 				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
-			}
-		},
-		{
-			"name": "bottom",
-			"from": [1, 14, 1],
-			"to": [15, 15, 15],
-			"faces": {
-				"north": {"uv": [1, 1, 15, 2], "texture": "#0"},
-				"east": {"uv": [1, 1, 15, 2], "texture": "#1"},
-				"south": {"uv": [1, 1, 15, 2], "texture": "#1"},
-				"west": {"uv": [1, 1, 15, 2], "texture": "#1"},
-				"up": {"uv": [1, 1, 15, 15], "texture": "#2"},
-				"down": {"uv": [1, 1, 15, 15], "texture": "#2"}
 			}
 		},
 		{
@@ -383,6 +384,19 @@
 				"up": {"uv": [1, 10, 15, 11], "rotation": 270, "texture": "#1"},
 				"down": {"uv": [1, 14, 15, 15], "rotation": 90, "texture": "#1"}
 			}
+		},
+		{
+			"name": "fire",
+			"from": [3, 1, 2],
+			"to": [13, 5, 2],
+			"faces": {
+				"north": {"uv": [3, 8, 13, 12], "texture": "#4"},
+				"east": {"uv": [3, 8, 3, 12], "texture": "#4"},
+				"south": {"uv": [3, 8, 13, 12], "texture": "#4"},
+				"west": {"uv": [13, 8, 13, 12], "texture": "#4"},
+				"up": {"uv": [3, 8, 13, 8], "texture": "#4"},
+				"down": {"uv": [3, 12, 13, 12], "texture": "#4"}
+			}
 		}
 	],
 	"display": {
@@ -416,7 +430,9 @@
 			"scale": [0.5, 0.5, 0.5]
 		}
 	},
-	"groups": [0, 1,
+	"groups": [
+		0,
+		1,
 		{
 			"name": "pillars",
 			"origin": [8, 8, 8],
@@ -464,7 +480,11 @@
 							"origin": [8, 8, 8],
 							"color": 0,
 							"children": [14, 15, 16, 17, 18]
-						}, 19, 20, 21]
+						},
+						19,
+						20,
+						21
+					]
 				},
 				{
 					"name": "bottom",
@@ -476,9 +496,14 @@
 							"origin": [8, 8, 8],
 							"color": 0,
 							"children": [22, 23, 24, 25]
-						}, 26, 27, 28]
+						},
+						26,
+						27,
+						28
+					]
 				}
 			]
-		}
+		},
+		29
 	]
 }
